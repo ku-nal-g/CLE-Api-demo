@@ -1,0 +1,26 @@
+.main-div{
+  display: flex;
+  min-height: 100vh;
+  background-color: azure;
+  justify-content: center;
+  align-items: center;
+}
+.table-div{
+  width: 90%;
+  border-radius: 15px;
+}
+table{
+  width: 100%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+table th{
+  background-color: tomato;
+  color: white;
+}
+table th,td{
+  border: 1px solid #ddd;
+  cursor: pointer;
+  padding: 12px;
+  text-align: center;
+}
